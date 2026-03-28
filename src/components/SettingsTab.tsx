@@ -535,8 +535,6 @@ const mockSharingPresets: SharingPreset[] = [
   }
 ];
 
-type PresetType = 'auth' | 'drop-templates' | 'integrations';
-
 interface SettingsTabProps {
   onNavigate?: (view: any) => void;
   initialTab?: PresetType;
